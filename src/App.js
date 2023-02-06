@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+let username = 'Al';
+const element1 = 
+(
+<h1>Merhaba {username}</h1>
+);
 function App() {
   return (
     <div className="App">
@@ -8,6 +13,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Merhaba
+        </p>
+        <p>
+          {element1}
         </p>
         <a
           className="App-link"
